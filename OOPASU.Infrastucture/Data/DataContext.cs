@@ -16,8 +16,6 @@ namespace OOPASU.Api.Data
         }
 
         public DbSet<Product> Products { get; set; }
-
-        public DbSet<DataEventRecord> DataEventRecord { get; set; }
         
         public DbSet<FileModel> Files { get; set; }
     }
